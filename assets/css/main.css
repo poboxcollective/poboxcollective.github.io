@@ -17,6 +17,14 @@ body {
   font-size: 1.3rem;
 }
 
+.font-nav {
+  font-family: "Oswald", Helvetica, sans-serif;
+}
+
+.font-headline {
+  font-family: "Corben", serif;
+}
+
 p {
   font-size: 1.2rem;
 }
