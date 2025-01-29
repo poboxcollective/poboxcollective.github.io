@@ -80,17 +80,17 @@ h1 {
   }
 }
 
-@media (min-width: 1400px) {
-  .hero-landing {
-    background-image: url("/assets/img/bg-image-food.png"), url("/assets/img/bg-image-craft.png");
-    background-position: left top, right bottom; /*Positioning*/
-    background-repeat: no-repeat; /*Prevent showing multiple background images*/
+/* .hero-landing {
+  @media (min-width: 1400px){
+    background-image: url("/assets/img/bg-image-food.png"),url("/assets/img/bg-image-craft.png");
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
     animation-name: fadeIn;
     animation-duration: 2s;
     animation-iteration-count: once;
   }
 }
-
+*/
 .bg-events-landing {
   background-image: url("/assets/img/back-arrow-down.png");
   background-position: top center; /*Positioning*/
