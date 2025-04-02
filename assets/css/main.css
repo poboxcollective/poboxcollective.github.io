@@ -102,6 +102,26 @@ h1 {
     -webkit-text-stroke: 0.08rem white;
   }
 }
+h2 {
+  font-size: 2.5rem;
+}
+
+h3, h4 {
+  font-size: 1.6rem;
+}
+
+.split-2 {
+  columns: 300px 2;
+}
+
+.split-2 article {
+  -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+  page-break-inside: avoid;
+}
+.split-2 article:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
 .carousel-indicators [data-bs-target] {
   background-color: #9BB2E8;
   height: 5px;
@@ -126,13 +146,14 @@ h1 {
   z-index: 0;
 }
 
-/* .hero-landing {
-  background-image: url("/assets/img/letter-border.png");
-  background-position: bottom;
-  background-repeat: repeat-x;
-  animation-name: fadeIn;
-  animation-duration: 1s;
-} */
+.hero-landing {
+  min-height: 80vh;
+}
+
+.cursor-zoom {
+  cursor: zoom-in !important;
+}
+
 /* .hero-landing {
   @media (min-width: 1400px){
     background-image: url("/assets/img/bg-image-food.png"),url("/assets/img/bg-image-craft.png");
@@ -202,7 +223,7 @@ nav a.btn:hover {
   border-color: #233255;
   font-family: "Hind Vadodara", sans-serif;
   text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: 600;
 }
 
@@ -212,12 +233,17 @@ nav a.btn:hover {
   border-color: #9BB2E8;
 }
 
+.btn-primary:focus {
+  background-color: #9BB2E8 !important;
+  color: #233255 !important;
+}
+
 .btn-outline-primary {
-  border-color: #6d7ca0;
+  border-color: #233255;
   text-transform: uppercase;
   color: #6d7ca0;
   border-width: 0.125rem;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   padding-top: 0.5;
@@ -231,6 +257,10 @@ nav a.btn:hover {
   background-color: #9BB2E8;
   border-color: #9BB2E8;
   color: white;
+}
+
+.btn-outline-primary:focus {
+  background-color: #9BB2E8 !important;
 }
 
 .btn-outline-light {
