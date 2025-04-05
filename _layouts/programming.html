@@ -4,25 +4,25 @@
   <body>
     <div class="container-fluid g-0 overflow-hidden">
       {% include nav.html %}
-      <div class="container-fluid pb-5 mb-4" data-aos="fade-in">
-        <h1 class="text-uppercase text-center accent-2-dark fw-bold" data-aos="fade-in">{{page.title}}</h1>
-          <div class="hstack justify-content-center gap-5 mt-3">
-            <h5 class="text-uppercase accent-3 fw-normal"><a href="/programming/exhibitions/">Exhibitions</a></h5>
-            <h5 class="text-uppercase accent-3 fw-normal">Workshops</h5>
-            <h5 class="text-uppercase accent-3 fw-normal">Mutual Aid</h5>
-            <h5 class="text-uppercase accent-3 fw-normal">General</h5>
-            <h5 class="text-uppercase accent-3 fw-normal">Screenings</h5>
-          </div>
+      <div class="container-fluid pb-5" data-aos="fade-in">
+        <a href="/programming/" alt="PO Box Programming" class="text-decoration-none"><h1 class="text-uppercase text-center accent-2-dark fw-bold" data-aos="fade-in">{{page.title}}</h1></a>
+        {% include programming-categories.html %}
       </div>
       <div class="container-fluid px-5 mb-4 hero-fluid">
-          <div class="d-flex flex-wrap align-items-stretch" data-aos="fade-up">
+          <div class="d-flex flex-wrap align-items-stretch flex-wrap justify-content-center" data-aos="fade-up">
               {% assign sorted = site.programming | reverse %}
               {% for program in sorted %}
-              <div class="col-md-6 col-sm-12 mb-sm-4 flex-wrap p-0 p-md-5">
-              <h5 class="mb-3 fw-bold accent-3 text-uppercase">{{program.categories}}</h5>
-                <h2 class="fw-bold text-start"><a href="{{program.url}}"" class="accent-2-dark text-decoration-none" alt="{{program.title}}">{{program.title}}</a></h2>
-                <a href="{{program.url}}" alt="{{program.title}}"><img src="{{ program.image[0] }}" alt="{{ program.title }}" class="img-fluid rounded rounded-4"></a>
-                <p class="my-4">{{program.description}}</p>
+              <div class="d-flex flex-column justify-content-around card-quarter flex-wrap px-0 px-md-3 mb-4">
+                <h5 class="mb-3 fw-bold accent-3 text-uppercase">
+                  {% if program.category == "exhibition" %}<i class="bi bi-easel-fill"></i>{% endif %}
+                  {% if program.category == "workshop" %}<i class="bi bi-gear-fill"></i>{% endif %}
+                  {% if program.category == "mutual-aid" %}<i class="bi bi-life-preserver"></i>{% endif %}
+                  {% if program.category == "general" %}<i class="bi bi-asterisk"></i>{% endif %}
+                  {% if program.category == "screenings" %}<i class="bi bi-film"></i>{% endif %}
+                  {{program.categories}}</h5>
+                <a href="{{program.url}}" alt="{{program.title}}"><img src="{{ program.image[0] }}" alt="{{ program.title }}" class="img-fluid rounded rounded-4 mb-4"></a>
+                <h3 class="fw-bold text-start"><a href="{{program.url}}"" class="accent-2-dark text-decoration-none" alt="{{program.title}}">{{program.title}}</a></h3>
+                <p class="my-4 flex-grow-1">{{program.description}}</p>
                 <h4 class="mt-2 text-end"><i class="bi bi-arrow-return-right accent-2-dark pe-2 mb-5"></i>  <a href="{{program.url}}" alt="{{exhibition.title}}" class="accent-3">More Info</a></h4>
                 <hr class="my-4 accent-3 border-2">
               </div>

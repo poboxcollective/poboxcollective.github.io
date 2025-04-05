@@ -29,6 +29,9 @@ $fontParagraph: "Neutron", serif;
   color: $accent-3;
 }
 
+.border-accent-2-dark {
+  border-color: $accent-2-dark !important;
+}
 :root {
   --size: clamp(1rem, 1rem + 10vmin, 30rem);
   --gap: calc(var(--size) / 14);
@@ -139,6 +142,12 @@ h3, h4 {
 .carousel-indicators [data-bs-target] {
   background-color: $accent-2;
   height: 5px;
+}
+
+.card-quarter {
+  @media (width >=600px){
+    width: 500px;
+  }
 }
 
 .card-event, .bg-upwards {

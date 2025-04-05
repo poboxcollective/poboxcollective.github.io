@@ -18,6 +18,10 @@
   color: #C12121;
 }
 
+.border-accent-2-dark {
+  border-color: #233255 !important;
+}
+
 :root {
   --size: clamp(1rem, 1rem + 10vmin, 30rem);
   --gap: calc(var(--size) / 14);
@@ -129,6 +133,12 @@ h3, h4 {
 .carousel-indicators [data-bs-target] {
   background-color: #9BB2E8;
   height: 5px;
+}
+
+@media (width >= 600px) {
+  .card-quarter {
+    width: 500px;
+  }
 }
 
 .card-event, .bg-upwards {
