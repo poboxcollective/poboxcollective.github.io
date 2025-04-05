@@ -18,7 +18,7 @@
                   {% if program.category == "workshop" %}<i class="bi bi-gear-fill"></i>{% endif %}
                   {% if program.category == "mutual-aid" %}<i class="bi bi-life-preserver"></i>{% endif %}
                   {% if program.category == "general" %}<i class="bi bi-asterisk"></i>{% endif %}
-                  {% if program.category == "screenings" %}<i class="bi bi-film"></i>{% endif %}
+                  {% if program.category == "screening" %}<i class="bi bi-film"></i>{% endif %}
                   {{program.categories}}</h5>
                 <a href="{{program.url}}" alt="{{program.title}}"><img src="{{ program.image[0] }}" alt="{{ program.title }}" class="img-fluid rounded rounded-4 mb-4"></a>
                 <h3 class="fw-bold text-start"><a href="{{program.url}}"" class="accent-2-dark text-decoration-none" alt="{{program.title}}">{{program.title}}</a></h3>

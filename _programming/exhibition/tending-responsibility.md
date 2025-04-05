@@ -2,14 +2,16 @@
 title: |
  Tending Responsibility / Borne Responsibility
 layout: gallery
-image:
+image-hero:
  - "/assets/img/exhibitions/tending-responsibility/tending-responsibility.jpg"
- - "/assets/img/exhibitions/tending-responsibility/tending-responsibility-02.jpg"
- - "/assets/img/exhibitions/tending-responsibility/tending-responsibility-03.jpg"
- - "/assets/img/exhibitions/tending-responsibility/tending-responsibility-04.jpg"
- - "/assets/img/exhibitions/tending-responsibility/tending-responsibility-05.jpg"
- - "/assets/img/exhibitions/tending-responsibility/tending-responsibility-06.jpg"
- - "/assets/img/exhibitions/tending-responsibility/tending-responsibility-07.jpg"
+image:
+ - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility.jpg"
+ - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-02.jpg"
+ - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-03.jpg"
+ - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-04.jpg"
+ - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-05.jpg"
+ - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-06.jpg"
+ - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-07.jpg"
 description: |
  A community art exhibit by Palestinian & MENA artists.<br>
  Featuring art by: Rama, Ahmad Almahdi, Fade Kareem & Yasmeen Khayr.

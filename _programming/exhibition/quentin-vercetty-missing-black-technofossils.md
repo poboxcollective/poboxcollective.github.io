@@ -1,8 +1,10 @@
 ---
 title: Quentin VerCetty&#58; Missing Black Technofossils
 layout: gallery
+image-hero:
+ - "/assets/img/programming/exhibitions/quentin-vercetty/missing-black-technofossils.jpg"
 image:
- - "/assets/img/exhibitions/quentin-vercetty/missing-black-technofossils.jpg"
+ - "/assets/img/programming/exhibitions/quentin-vercetty/missing-black-technofossils.jpg"
 description: |
  PO Box Collective is excited to have on view Quentin VerCetty’s Missing Black Technofossils in our storefront windows for the months of June and July.
 category: exhibition
