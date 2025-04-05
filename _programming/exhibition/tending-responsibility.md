@@ -3,7 +3,7 @@ title: |
  Tending Responsibility / Borne Responsibility
 layout: gallery
 image-hero:
- - "/assets/img/exhibitions/tending-responsibility/tending-responsibility.jpg"
+ - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility.jpg"
 image:
  - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility.jpg"
  - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-02.jpg"

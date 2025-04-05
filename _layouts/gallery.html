@@ -4,7 +4,11 @@
   <body>
     <div class="container-fluid g-0 overflow-hidden">
       {% include nav.html %}
-      <div class="container pb-5 mb-4 pt-sm-5 pt-md-0" data-aos="fade-in">
+      <div class="container pb-5 mb-4 pt-sm-5 pt-md-0">
+        <div class="container-fluid pb-5" data-aos="fade-in">
+          <a href="/programming/" alt="PO Box Programming" class="text-decoration-none"><h1 class="text-uppercase text-center accent-2-dark fw-bold" data-aos="fade-in"><span class="accent-2">PO Box</span> Programming</h1></a>
+          {% include programming-categories.html %}
+        </div>
         <h5 class="text-uppercase text-start accent-3 fw-bold">
           {% if page.category == "exhibition" %}<i class="bi bi-easel-fill"></i>{% endif %}
           {% if page.category == "workshop" %}<i class="bi bi-gear-fill"></i>{% endif %}

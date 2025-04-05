@@ -1,5 +1,5 @@
 {% assign future_events = site.event | where_exp: "post", "post.date >= site.time" %}
-{% assign sorted-events = future_events | sort: 'post_date' %}
+{% assign sorted-events = future_events | sort: 'date' %}
 {% for item in sorted-events %}
 <div class="col-lg-3">
     <div class="h-100 card-event" data-aos="fade-up">

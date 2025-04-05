@@ -54,6 +54,10 @@ body {
   background-color: rgb(38, 122, 94);
 }
 
+.bg-accent-3 {
+  background-color: #C12121;
+}
+
 .font-nav {
   font-family: "Oswald", Helvetica, sans-serif;
 }
