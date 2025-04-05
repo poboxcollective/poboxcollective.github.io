@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    <div class="container-fluid g-0 overflow-hidden">
+      {% include nav.html %}
+      <!-- top content block -->
+      <div class="container-fluid hero-landing">
+        <div class="row align-items-top justify-content-center">
+          <div class="col-lg-6 col-md-12 pb-5 ps-sm-0 ps-md-3 ps-lg-5">
+            <img src="/assets/img/outdoors-16x9.jpg" alt="Storefront Image" class="img-fluid mb-5 rounded rounded-4">
+            {% include buttons.html %}
+          </div>
+          <div class="col-lg-6 col-md-12 pe-5 animate__animated animate__fadeIn">
+            <h1 class="text-uppercase accent-2-dark fw-bold px-5">Donate to <span class="accent-2">PO Box</span></h1>
+            <div class="px-5">
+              <p class="mt-5">There are many ways to financially support the PO Box Collective.</p>
+              <h5 class="accent-3 text-uppercase fw-bold mb-4">For Donations Under $500</h5>
+              <h3 class="text-uppercase fw-bold">Preferred Method</h3>
+              <p>Zelle using poboxcollective@gmail.com</p>
+              <hr class="pb-3 accent-2 opacity-50 border-2">
+              <div class="hstack gap-5 justify-content-between">
+                <div><h3 class="text-uppercase fw-bold">Recurring Subscription</h3></div>
+                <div><p><a href="https://www.patreon.com/poboxcollective" alt="Patreon" target="_blank" class="btn btn-primary rounded rounded-pill px-4">Patreon</a></p></div>
+              </div>
+              <hr class="pb-3 accent-2 opacity-50 border-2">
+              <div class="hstack gap-5 justify-content-between">
+                <div><h3 class="text-uppercase fw-bold">Via PayPal</h3></div>
+                <div><p><a href="https://www.paypal.com/paypalme/poboxcollective" alt="Patreon" target="_blank" class="btn btn-primary rounded rounded-pill px-4">Paypal</a></p></div>
+              </div>
+              <hr class="pb-3 accent-2 opacity-50 border-2">
+              <div class="hstack gap-5 justify-content-between">
+                <div><h3 class="text-uppercase fw-bold">Via Venmo</h3></div>
+                <div><p><a href="https://account.venmo.com/u/poboxcollective" alt="Patreon" target="_blank" class="btn btn-primary rounded rounded-pill px-4">Venmo</a></p></div>
+              </div>
+              <hr class="pb-3 accent-2 opacity-50 border-2">
+              <h5 class="accent-3 text-uppercase fw-bold mb-4 mt-5">For Donations Over $500</h5>
+              <p>Send your contribution to our 501(c)3 fiscal sponsor:</p>
+              <blockquote>
+                Roman Susan Art Foundation NFP<br>
+                4750 N Sheridan Rd #534<br>
+                Chicago, IL 60640 
+              </blockquote>
+              <div class="hstack gap-5 justify-content-between mb-5">
+              <div><p>For online & digital options <i class="bi bi-arrow-right"></i></p></div>
+                <div><p><a href="mailto:art@romansusan.org?subject=PO Box Donation" alt="Patreon" target="_blank" class="btn btn-primary rounded rounded-pill px-4">Email</a></p></div>
+              </div>
+            </div>
+            <!--<div class="plyr__video-embed ratio ratio-16x9 mt-5 animate__animated animate__fadeInUp" id="player">
+              <iframe
+                  src="https://www.youtube.com/embed/HiYTpYSG_pE?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+                  allowfullscreen
+                  allowtransparency
+                  allow="autoplay"
+              ></iframe>
+            </div>-->
+          </div>
+        </div>
+      <!-- top content block -->
+       </div>
+       {% include values.html %}
+      </div>
+      <div class="container-fluid card-event pb-5 pt-5 mb-4" id="events-upcoming">
+        <h1 class="text-uppercase text-center text-white" data-aos="fade-in" data-aos-anchor="#events-upcoming">Upcoming Events</h1>
+      </div>
+      <div class="container-fluid px-5 mt-5">
+        <div class="row d-flex g-4 flex-wrap justify-content-start flex-fill align-items-stretch">
+          {% include events-next-3.html %}
+        </div>
+        <h3 class="py-5 text-end"><i class="bi bi-arrow-return-right accent-2-dark pe-2"></i>  <a href="/events/" alt="All Events" class="accent-3">View All Upcoming Events</a></h3>
+      </div>
+      {% include press.html %}
+    </div>
+      {% include footer.html %}
+    <script>
+      AOS.init(
+        {
+          startEvent: 'DOMContentLoaded',
+          easing: 'ease-in-out',
+          duration: 600,
+        }
+      );
+      window.addEventListener('load', AOS.refresh);
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+  </body>
+</html>

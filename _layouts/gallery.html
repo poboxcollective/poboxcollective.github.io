@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    <div class="container-fluid g-0 overflow-hidden">
+      {% include nav.html %}
+      <div class="container pb-5 mb-4 pt-sm-5 pt-md-0" data-aos="fade-in">
+        <h5 class="text-uppercase text-start accent-3 fw-bold">{{page.categories}}</h5>
+        <h2 class="accent-2-dark fw-semibold">{{page.title}}</h2>
+        <p>{{page.description}}</p>
+        <div class="d-flex flex-row justify-content-between">
+          <div class="text-end">{%if page.previous.url %}<h4><a href="{{ page.previous.url }}" alt="{{page.previous.title}}" class="text-decoration-none accent-3"><i class="bi bi-arrow-left pe-1"></i>Previous</a></h4>{% endif %}</div>
+          <div class="text-end">{%if page.next.url %}<h4><a href="{{ page.next.url }}" alt="{{page.next.title}}" class="text-decoration-none accent-3">Next <i class="bi bi-arrow-right ps-1"></i></a></h4>{% endif %}</div>
+        </div>
+      </div>
+      <div class="container-fluid mb-5 g-0">
+        <a href="{{page.image[0]}}" class="glightbox" alt="{{page.title}}"><img src="{{page.image[0]}}" class="img-fluid mx-auto" alt="{{page.title}} Image" data-aos="fade-up" data-aos-easing="ease-out"></a>
+      </div>
+      <div class="container-fluid px-5 mb-4">
+        <div class="row align-items-top">
+          <div class="col-md-6 col-sm-12 mb-sm-4">
+            <div class="vstack gap-5">
+              {% for img in page.image offset:1 %}
+              <a href="{{img}}" class="glightbox" alt="{{page.title}}"><img src="{{img}}" alt="{{page.title}} Image" class="img-fluid" data-aos="fade-up"></a>
+              {% endfor %}
+          </div>
+          </div>
+          <div class="col-md-6 col-sm-12 mb-sm-4">
+            <div class="px-5 h-100 mt-5">
+              <article data-aos="fade-up">
+                {{page.content}}
+              </article>  
+              <div class="sticky-top"  data-aos="fade-in">
+                <h4 class="py-5 text-end"><i class="bi bi-arrow-left accent-2-dark pe-2"></i>  <a href="/exhibitions/" alt="All Exhibitions" class="accent-3">Back to Exhibitions</a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% include buttons.html %}
+      </div>
+      {% include press.html %}
+    </div>
+    {% include values.html %}
+    {% include footer.html %}
+    <script>
+      AOS.init(
+        {
+          startEvent: 'DOMContentLoaded',
+          easing: 'ease-in-out',
+          duration: 600,
+        }
+      );
+      window.addEventListener('load', AOS.refresh);
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        touchNavigation: true,
+        openEffect: 'bounce', // Define that we want the bounce animation on open
+        cssEfects: {
+          // register our new animation
+          bounce: { in: 'pulse', out: 'pulse' }
+        },
+        closeEffect: "none",
+        autoplayVideos: true,
+        loop: false,
+      });
+    </script>
+  </body>
+</html>

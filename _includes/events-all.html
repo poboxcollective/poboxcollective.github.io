@@ -1,0 +1,41 @@
+{% assign future_events = site.event | where_exp: "post", "post.date >= site.time" %}
+{% assign sorted-events = future_events | sort: 'post_date' %}
+{% for item in sorted-events %}
+<div class="col-lg-3">
+    <div class="h-100 card-event" data-aos="fade-up">
+        <div class="d-flex flex-column text-white">
+            <div>
+                <a href="{{item.url}}"><img src="/assets/img/events/{{item.image}}" alt="{{item.name}}" class="img-fluid"></a>
+            </div>
+            <div class="d-flex flex-row justify-content-between px-3 pt-4">
+                <div class="text-center"><span class="fw-bold text-uppercase">{{ item.date | date: "%B" }}<br><span class="fs-1">{{ item.date | date: "%-d" }}</span>
+                    {% if item.type == "recurring" %}
+                        <h2 class="text-center opacity-50"><i class="bi bi-arrow-repeat ps-2"></i></h2>
+                    {% endif %}
+                    {% if item.type == "series" %}
+                        <h2 class="text-center opacity-50"><i class="bi bi-calendar2-range-fill"></i></h2>
+                    {% endif %}
+                    {% if item.type == "single" %}
+                    <h2 class="text-center opacity-50"><i class="bi bi-calendar2-event-fill"></i></h2>
+                    {% endif %}
+                </div>
+                <div class="accent-2 fw-semibold text-uppercase text-end">{{ item.date | date: "%A" }}<br><span class="text-white">{{item.time-start}} <span class="accent-2 fw-light">-</span> {{item.time-end}}</span>
+                    <hr class="border-3 border-light opacity-75">
+                    {% if item.type == "recurring" %}
+                        <p class="fw-light text-white opacity-50">Recurring</p>
+                    {% endif %}
+                    {% if item.type == "series" %}
+                        <p class="fw-light text-white opacity-50">Series</p>
+                    {% endif %}
+                    {% if item.type == "single" %}
+                        <p class="fw-light text-white opacity-50">One-Time</p>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="d-flex flex-column pb-3 px-3 text-center">
+                <h4 class="mt-4 text-uppercase text-center fw-bold"><a href="{{item.url}}" alt="Details" class="text-white text-decoration-none">{{item.name}}</a></h4>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

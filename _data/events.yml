@@ -1,0 +1,68 @@
+- day: Tuesday
+  month: MARCH
+  date: 23
+  time-start: 12PM
+  time-end: 1PM
+  name: Food Not Bombs
+  location: PO Box
+  address: |
+   6900 N Glenwood Ave<br>
+   Chicago, IL 60626
+  map: https://maps.app.goo.gl/kiraTHJz2yN8FXSr6
+  image: food-not-bombs.jpg
+  year: 2025
+  recurring: "yes"
+- day: Thursday
+  month: MARCH
+  date: 25
+  time-start: 12PM
+  time-end: 1PM
+  name: Memorial for Police Violence
+  location: PO Box
+  address: |
+   6900 N Glenwood Ave<br>
+   Chicago, IL 60626
+  map: https://maps.app.goo.gl/kiraTHJz2yN8FXSr6
+  image: blm-memorial.jpg
+  year: 2025
+  recurring: "yes"
+- day: Thursday
+  month: MARCH
+  date: 25
+  time-start: 12PM
+  time-end: 1PM
+  name: Rogers Park Seed Library
+  location: PO Box
+  address: |
+   6900 N Glenwood Ave<br>
+   Chicago, IL 60626
+  map: https://maps.app.goo.gl/kiraTHJz2yN8FXSr6
+  image: seed-library.jpg
+  year: 2025
+  recurring: "yes"
+- day: Friday
+  month: MARCH
+  date: 26
+  time-start: 12PM
+  time-end: 4PM
+  name: Co-Working Fridays
+  location: PO Box
+  address: |
+   6900 N Glenwood Ave<br>
+   Chicago, IL 60626
+  map: https://maps.app.goo.gl/kiraTHJz2yN8FXSr6
+  image: coworking.jpg
+  year: 2025
+  recurring: "yes"
+- day: Friday
+  month: MARCH
+  date: 26
+  time-start: 12PM
+  time-end: 2PM
+  name: Non-Fiction Read Aloud (Online)
+  location: Zoom
+  address: |
+   Contact us for Zoom link.
+  image: nonfiction-march-2025.jpg
+  year: 2025
+  recurring: "yes"

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    <div class="container-fluid g-0 overflow-hidden">
+      {% include nav.html %}
+      <!-- top content block -->
+      <div class="container-fluid hero-landing">
+        <div class="row align-items-top justify-content-center">
+          <div class="col-lg-6 col-md-12 pb-5 ps-sm-0 ps-md-3 ps-lg-5">
+            <div id="carouselPOBOX" class="carousel slide carousel-fade mb-sm-0 mb-md-5" data-bs-ride="carousel">
+              <div class="carousel-inner rounded rounded-4 animate__animated animate__fadeIn">
+                <div class="carousel-item active">
+                  <img src="/assets/img/carousel/01.jpg" class="d-block w-100" alt="Welcome to PO Box Collective">
+                </div>
+                <div class="carousel-item">
+                  <img src="/assets/img/carousel/02.jpg" class="d-block w-100" alt="Drum Circle">
+                </div>
+                <div class="carousel-item">
+                  <img src="/assets/img/carousel/03.jpg" class="d-block w-100" alt="Sewing Circle">
+                </div>
+                <div class="carousel-item">
+                  <img src="/assets/img/carousel/04.jpg" class="d-block w-100" alt="BLM">
+                </div>
+                <div class="carousel-item">
+                  <img src="/assets/img/carousel/05.jpg" class="d-block w-100" alt="Fundraiser">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselPOBOX" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselPOBOX" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 pe-5 animate__animated animate__fadeIn">
+            <h1 class="text-uppercase accent-2-dark fw-bold px-5"><span class="accent-2">Welcome to</span> PO BOX</h1>
+            <div class="px-5">
+              <p class="mt-5">A creative collective & intergenerational social practice center dedicated to <span class="fw-bold">building Rogers Park community through radical art making, mutual aid & programming</span>.</p>
+              <p>We host skill and resource sharing workshops.</p>
+              <p class="mt-5 text-center"><a href="/contact/" alt="Contact Us" class="btn btn-outline-primary rounded rounded-pill px-4 py-2"><span class="accent-2-dark">If you'd like to participate <i class="bi bi-envelope-heart px-1 accent-3"></i> contact us</span></a></p>
+            </div>
+            <div class="d-flex flexwrap gap-5 justify-content-evenly my-5">
+              <div>
+                <img src="/assets/img/pin-test.png" class="img-fluid" style="width: 150px;" data-aos="flip-left" data-aos-delay="200"></p>
+              </div>
+              <div>
+                <img src="/assets/img/pin-pink.png" class="img-fluid" style="width: 150px;" data-aos="flip-left" data-aos-delay="400"></p>
+              </div>
+              <div>
+                <img src="/assets/img/pin-transflag.png" class="img-fluid" style="width: 150px;" data-aos="flip-left" data-aos-delay="600"></p>
+              </div>
+            </div>
+            <!--<div class="plyr__video-embed ratio ratio-16x9 mt-5 animate__animated animate__fadeInUp" id="player">
+              <iframe
+                  src="https://www.youtube.com/embed/HiYTpYSG_pE?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+                  allowfullscreen
+                  allowtransparency
+                  allow="autoplay"
+              ></iframe>
+            </div>-->
+          </div>
+        </div>
+      </div>
+      <!-- top content block -->
+      <div class="container-fluid card-event pb-5 pt-5 mb-4">
+        <h1 class="text-uppercase text-center text-white">Upcoming Events</h1>
+      </div>
+      <div class="container-fluid px-5 mt-5">
+        <div class="row d-flex g-4 flex-wrap justify-content-start flex-fill align-items-stretch">
+          {% include events-next-3.html %}
+        </div>
+        <h4 class="py-5 text-end"><i class="bi bi-arrow-return-right accent-2-dark pe-2"></i>  <a href="/events/" alt="All Events" class="accent-3">View All Upcoming Events</a></h4>
+      </div>
+      {% include press.html %}
+    </div>
+    {% include values.html %}
+    {% include footer.html %}
+    <script>
+      AOS.init(
+        {
+          startEvent: 'DOMContentLoaded',
+          easing: 'ease-in-out',
+          duration: 600,
+        }
+      );
+      window.addEventListener('load', AOS.refresh);
+    </script>
+  </body>
+</html>

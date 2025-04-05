@@ -1,0 +1,16 @@
+<div class="container-fluid pt-5 pb-2 bg-upwards">
+    <div class="container text-white mb-5 mt-2">
+      <h1 class="text-uppercase fw-normal mb-5" data-aos="fade-up">PO Box In the Press</h1>
+        <div class="row d-flex flex-wrap pb-3">
+            <div class="col-12 split-2">
+                {% for item in site.data.press %}
+                <article>
+                  <div data-aos="fade-up-right">
+                  <h4 class="text-white"><i class="bi bi-arrow-up-right pe-2"></i><a href="{{item.url}}" target="_blank" class="text-white">{{item.title}}</a></h4><p><a href="{{item.url}}" target="_blank" class="accent-2 text-decoration-none">{{item.source}} <span class="accent-2-med">by</span> {{item.author}} <span class="opacity-25">&mdash;</span> <span class="opacity-75">{{item.date | date: "%B %-d, %Y"}}</span></a></p>
+                  </div>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+  </div>

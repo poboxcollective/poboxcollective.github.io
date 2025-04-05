@@ -1,0 +1,22 @@
+url: "https://www.poboxcollective.us" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "PO Box Collective" # the name of your site, e.g. ACME Corp.
+description: PO BOX is a creative collective & intergenerational social practice center dedicated to building Rogers Park community through radical art making, mutual aid & programming.
+email: david@raygun.org
+
+plugins:
+ - jekyll-seo-tag
+ - jekyll-sitemap
+
+permalink: /:categories/:title/
+
+destination: docs/
+
+future: true
+
+collections:
+  event:
+    output: true
+  programming:
+    output: true
+    permalink: /programming/:categories/:title/
