@@ -9,10 +9,10 @@
         {% include programming-categories.html %}
       </div>
       <div class="container-fluid px-5 mb-4 hero-fluid">
-          <div class="d-flex flex-wrap align-items-stretch flex-wrap justify-content-center" data-aos="fade-up">
+          <div class="d-flex flex-wrap align-items-stretch flex-wrap justify-content-center">
               {% assign sorted = site.programming | reverse %}
               {% for program in sorted %}
-              <div class="d-flex flex-column justify-content-around card-quarter flex-wrap px-0 px-md-3 mb-4">
+              <div class="d-flex flex-column justify-content-around card-quarter flex-wrap px-0 px-md-3 mb-4" data-aos="fade-up"">
                 <h5 class="mb-3 fw-bold accent-3 text-uppercase">
                   {% if program.category == "exhibition" %}<i class="bi bi-easel-fill"></i>{% endif %}
                   {% if program.category == "workshop" %}<i class="bi bi-gear-fill"></i>{% endif %}

@@ -68,10 +68,6 @@ body {
   font-family: "Hind Vadodara", sans-serif;
 }
 
-.font-nav {
-  font-family: "Oswald", Helvetica, sans-serif;
-}
-
 div.topographic {
   font-size: 1.2rem;
   background-color: rgb(44, 86, 70);
@@ -196,6 +192,10 @@ nav p {
   font-family: "Oswald", serif;
   font-weight: 400;
   font-size: 1.8rem;
+}
+
+nav a {
+  color: #233255;
 }
 
 nav a.btn {
