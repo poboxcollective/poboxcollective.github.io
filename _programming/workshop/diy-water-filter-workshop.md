@@ -10,8 +10,6 @@ description: |
 category: workshop
 date: 2025-02-22
 ---
-Presentation and discussion about water filtration.
-
 Come through and we can learn together!
 
 Let’s fight fascism by filtering toxins out of the precious Earth!
