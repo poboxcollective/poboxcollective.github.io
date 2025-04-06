@@ -13,6 +13,10 @@ $fontNav: "Oswald", Helvetica, sans-serif;
 $fontHeadline: "Hind Vadodara", sans-serif;
 $fontParagraph: "Neutron", serif;
 
+.ff-sans {
+  font-family: $fontHeadline;
+}
+
 .accent-1 {
   color: $accent-1;
 }
@@ -31,6 +35,9 @@ $fontParagraph: "Neutron", serif;
 
 .border-accent-2-dark {
   border-color: $accent-2-dark !important;
+}
+.border-accent-3 {
+  border-color: $accent-3 !important;
 }
 :root {
   --size: clamp(1rem, 1rem + 10vmin, 30rem);
@@ -127,6 +134,10 @@ h3, h4 {
   font-size: 1.6rem;
 }
 
+h4 {
+  font-weight: 600;
+}
+
 .split-2 {
   columns: 300px 2;
 }
@@ -147,6 +158,24 @@ h3, h4 {
   @media (width >=600px){
     width: 500px;
   }
+}
+.card-cal-upcoming {
+  @media (width >=600px){
+    width: 400px;
+  }
+}
+
+.card-cal-all {
+  @media (width >=600px){
+    width: 300px;
+  }
+}
+
+.card-cal-upcoming img {
+  min-height: 400px;
+}
+.card-cal-all img {
+  min-height: 300px;
 }
 
 .card-event, .bg-upwards {

@@ -4,6 +4,8 @@ title: "PO Box Collective" # the name of your site, e.g. ACME Corp.
 description: PO BOX is a creative collective & intergenerational social practice center dedicated to building Rogers Park community through radical art making, mutual aid & programming.
 email: david@raygun.org
 
+timezone: America/Chicago
+
 plugins:
  - jekyll-seo-tag
  - jekyll-sitemap

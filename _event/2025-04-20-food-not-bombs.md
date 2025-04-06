@@ -13,5 +13,6 @@ image: food-not-bombs.jpg
 year: 2025
 type: recurring
 tags: [ event ]
+date: 2025-04-06 13:00:00 America/Chicago
 ---
 RP Food Not Bombs distributes free food every Sunday.

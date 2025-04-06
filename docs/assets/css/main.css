@@ -1,3 +1,7 @@
+.ff-sans {
+  font-family: "Hind Vadodara", sans-serif;
+}
+
 .accent-1 {
   color: rgb(38, 122, 94);
 }
@@ -20,6 +24,10 @@
 
 .border-accent-2-dark {
   border-color: #233255 !important;
+}
+
+.border-accent-3 {
+  border-color: #C12121 !important;
 }
 
 :root {
@@ -118,6 +126,10 @@ h3, h4 {
   font-size: 1.6rem;
 }
 
+h4 {
+  font-weight: 600;
+}
+
 .split-2 {
   columns: 300px 2;
 }
@@ -139,6 +151,26 @@ h3, h4 {
   .card-quarter {
     width: 500px;
   }
+}
+
+@media (width >= 600px) {
+  .card-cal-upcoming {
+    width: 400px;
+  }
+}
+
+@media (width >= 600px) {
+  .card-cal-all {
+    width: 300px;
+  }
+}
+
+.card-cal-upcoming img {
+  min-height: 400px;
+}
+
+.card-cal-all img {
+  min-height: 300px;
 }
 
 .card-event, .bg-upwards {

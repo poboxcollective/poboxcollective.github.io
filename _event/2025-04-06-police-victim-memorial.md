@@ -13,6 +13,7 @@ image: blm-memorial.jpg
 year: 2025
 recurring: "yes"
 tags: [ event ]
+date: 2025-04-06 13:00:00 America/Chicago
 ---
 We are here every Sunday 11am-1pm honoring those who have been killed by police. Please join Cheap Art for Freedom (CAfF) and PO Box Collective in the maintenance of our public memorial under the El tracks at Glenwood and Farwell, to wheat paste a name to the wall, help keep the memorial swept, add flowers, pick up a free poster, or just show your solidarity. 
 

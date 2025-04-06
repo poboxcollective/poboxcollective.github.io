@@ -4,7 +4,7 @@ layout: gallery
 image-hero:
  - "/assets/img/programming/exhibitions/BLM/black-lives-matter-memorial.jpg"
 image:
- - "/assets/img/programming/exhibitions/BLM/black-lives-matter-memorial.jpg"
+ - "/assets/img/programming/exhibitions/BLM/black-lives-matter-memorial-03.jpg"
  - "/assets/img/programming/exhibitions/BLM/black-lives-matter-memorial-02.jpg"
  - "/assets/img/programming/exhibitions/BLM/black-lives-matter-memorial-03.jpg"
 description: |
