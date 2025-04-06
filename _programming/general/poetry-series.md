@@ -3,10 +3,10 @@ title: |
  PO Box Poetry Night
 layout: gallery
 image-hero:
- - "/assets/img/programming/general/poetry-night/poetry-night.jpg"
+ - "/assets/img/programming/general/poetry-night/poetry-night-01.jpg"
 image:
  - "/assets/img/programming/general/poetry-night/poetry-night.jpg"
- - "/assets/img/programming/general/poetry-night/poetry-night-01.jpg"
+ - "/assets/img/programming/general/poetry-night/poetry-night-02.jpg"
 description: |
  This workshop is led by guest writers— sometimes readers, sometimes other poets local to Chicago. 
 category: general
