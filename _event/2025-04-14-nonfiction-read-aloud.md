@@ -13,7 +13,7 @@ image: nonfiction-march-2025.jpg
 year: 2025
 type: recurring
 tags: [ event ]
-date: 2025-04-06 20:30:00 America/Chicago
+date: 2025-04-14 20:30:00 America/Chicago
 ---
 Nonfiction Read-Aloud Book Group meets online on the 2nd and 4th Mondays of each month @ 7:30pm. 
 We’ve been meeting since 2019. Meetings are fluid. Pop in when you can! We take turns reading aloud to each other and stop the reading frequently to discuss the text, ask questions, and repeat sentences. People need not read aloud in order to participate.

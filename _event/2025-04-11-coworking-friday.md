@@ -13,6 +13,6 @@ image: coworking.jpg
 year: 2025
 type: recurring
 tags: [ event ]
-date: 2025-04-06 16:00:00 America/Chicago
+date: 2025-04-11 16:00:00 America/Chicago
 ---
 PO Box will be open as a co-working space for use. It is accessible by ramp with an accessible bathroom.

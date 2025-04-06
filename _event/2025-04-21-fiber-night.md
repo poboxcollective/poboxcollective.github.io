@@ -14,7 +14,7 @@ image: fiber-night.jpg
 year: 2025
 type: recurring
 tags: [ event ]
-date: 2025-04-06 20:00:00 America/Chicago
+date: 2025-04-21 20:00:00 America/Chicago
 ---
 Come make stuff in a respectful community. Bring your project, snacks, ideas, kindly disposition. Introverts welcome.
 
