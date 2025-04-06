@@ -13,7 +13,7 @@
               {% assign sorted = site.programming | where_exp: 'post', "post.category == 'mutual-aid'" %}
               {% for program in sorted %}
               <div class="d-flex flex-column justify-content-around card-quarter flex-wrap px-0 px-md-3 mb-4">
-                <h5 class="mb-3 fw-bold accent-3 text-uppercase"><i class="bi bi-easel-fill"></i> {{program.categories}}</h5>
+                <h5 class="mb-3 fw-bold accent-3 text-uppercase"><i class="bi bi-life-preserver"></i> {{program.categories}}</h5>
                 <a href="{{program.url}}" alt="{{program.title}}"><img src="{{ program.image[0] }}" alt="{{ program.title }}" class="img-fluid rounded rounded-4 mb-4"></a>
                 <h3 class="fw-bold text-start"><a href="{{program.url}}"" class="accent-2-dark text-decoration-none" alt="{{program.title}}">{{program.title}}</a></h3>
                 <p class="my-4 flex-grow-1">{{program.description}}</p>

@@ -3,7 +3,7 @@ layout: event
 day: Sunday
 time-start: 12PM
 time-end: 1PM
-name: Roger's Park Food Not Bombs
+name: Rogers Park Food Not Bombs
 location: PO Box
 address: |
  6900 N Glenwood Ave<br>
