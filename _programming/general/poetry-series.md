@@ -12,4 +12,4 @@ description: |
 category: general
 date: 2024-10-17
 ---
-The workshop aims to read and consider work by that month’s readers as well as the work that has inspired their own poetry. We also encourage folks to bring a bite to eat for themselves or to share with the group.
+The PO Box Poetry Series was started in the spring of 2022. We aim to bring poets local to the neighborhood together with poets from across Chicago and beyond to form a stronger community through poetry. The readings are free & open to the public.
