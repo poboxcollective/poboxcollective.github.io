@@ -4,20 +4,23 @@
   <body>
     <div class="container-fluid g-0 overflow-hidden">
       {% include nav.html %}
-      <div class="container pb-5 mb-4 pt-sm-5 pt-md-0">
+      <div class="container px-4 px-sm-0 pb-5 mb-4 pt-sm-5 pt-md-0">
         <div class="container-fluid pb-5" data-aos="fade-in">
           <a href="/programming/" alt="PO Box Programming" class="text-decoration-none"><h1 class="text-uppercase text-center accent-2-dark fw-bold" data-aos="fade-in"><span class="accent-2">PO Box</span> Programming</h1></a>
           {% include programming-categories.html %}
         </div>
-        <h5 class="text-uppercase text-start accent-3 fw-bold">
+        <div class="hstack justify-content-between">
+          <h5 class="text-uppercase text-start accent-3 fw-bold">
           {% if page.category == "exhibition" %}<i class="bi bi-easel-fill"></i>{% endif %}
           {% if page.category == "workshop" %}<i class="bi bi-gear-fill"></i>{% endif %}
           {% if page.category == "mutual-aid" %}<i class="bi bi-life-preserver"></i>{% endif %}
           {% if page.category == "general" %}<i class="bi bi-asterisk"></i>{% endif %}
           {% if page.category == "screening" %}<i class="bi bi-film"></i>{% endif %}
           {{page.categories}}</h5>
+          <h5 class="accent-2 fw-semibold">{{page.date | date: "%B %d, %Y"}}</h5>
+        </div>
         <h2 class="accent-2-dark fw-semibold">{{page.title}}</h2>
-        <p>{{page.description}}</p>
+          <p>{{page.description}}</p>
         <div class="d-flex flex-row justify-content-between">
           <div class="text-end">{%if page.previous.url %}<h4><a href="{{ page.previous.url }}" alt="{{page.previous.title}}" class="text-decoration-none accent-3"><i class="bi bi-arrow-left pe-1"></i>Previous</a></h4>{% endif %}</div>
           <div class="text-end">{%if page.next.url %}<h4><a href="{{ page.next.url }}" alt="{{page.next.title}}" class="text-decoration-none accent-3">Next <i class="bi bi-arrow-right ps-1"></i></a></h4>{% endif %}</div>
@@ -38,7 +41,7 @@
           </div>
           </div>
           <div class="col-md-6 col-sm-12 mb-sm-4">
-            <div class="px-5 h-100 mt-5">
+            <div class="px-0 px-sm-5 h-100 mt-5">
               <article data-aos="fade-up">
                 {{page.content}}
               </article>
