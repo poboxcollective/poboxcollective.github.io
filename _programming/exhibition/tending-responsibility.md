@@ -6,6 +6,8 @@ image-hero:
  - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility.jpg"
 image:
  - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-1x1.jpg"
+ - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-flyer.jpg"
+ - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-flyer-2.jpg"
  - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-02.jpg"
  - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-03.jpg"
  - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-04.jpg"

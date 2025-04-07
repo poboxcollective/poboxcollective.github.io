@@ -138,6 +138,13 @@ h4 {
   font-weight: 600;
 }
 
+blockquote {
+  padding-left: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border-left: solid 4px $accent-2-med;
+}
+
 .split-2 {
   columns: 300px 2;
 }
@@ -161,7 +168,7 @@ h4 {
 }
 .card-cal-upcoming {
   @media (width >=600px){
-    width: 400px;
+    width: 350px;
   }
 }
 
@@ -172,10 +179,14 @@ h4 {
 }
 
 .card-cal-upcoming img {
-  min-height: 400px;
+  min-width: 350px;
+  min-height: 350px;
+  aspect-ratio: 1/1;
 }
 .card-cal-all img {
+  min-width: 300px;
   min-height: 300px;
+  aspect-ratio: 1/1;
 }
 
 .card-event, .bg-upwards {

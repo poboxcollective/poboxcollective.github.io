@@ -1,7 +1,7 @@
 {% assign future_events = site.event | where_exp: "post", "post.date >= site.time" %}
 {% assign sorted-events = future_events | sort: 'date' %}
 {% for item in sorted-events %}
-<div class="card-cal-all gap-0 mb-4 mx-auto d-flex flex-wrap align-items-stretch">
+<div class="card-cal-all gap-0 mx-auto mb-4 d-flex flex-wrap align-items-stretch">
     <div class="card-event d-flex flex-column justify-content-center" data-aos="fade-up">
         <div>
         <a href="{{item.url}}"><img src="/assets/img/events/{{item.image}}" alt="{{item.name}}" class="img-fluid"></a>

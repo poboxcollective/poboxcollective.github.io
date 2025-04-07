@@ -17,7 +17,7 @@
           {% if page.category == "general" %}<i class="bi bi-asterisk"></i>{% endif %}
           {% if page.category == "screening" %}<i class="bi bi-film"></i>{% endif %}
           {{page.categories}}</h5>
-          <h5 class="accent-2 fw-semibold">{{page.date | date: "%B %d, %Y"}}</h5>
+          <h5 class="accent-2 fw-semibold"><span class="fw-normal">|</span> {{page.date | date: "%B %d, %Y"}}</h5>
         </div>
         <h2 class="accent-2-dark fw-semibold">{{page.title}}</h2>
           <p>{{page.description}}</p>

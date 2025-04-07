@@ -15,6 +15,6 @@ image:
 description: |
  Rogers Park FNB rescues unsold groceries from Whole Foods and local restaurant supply sources.
 category: mutual-aid
-date: 2025-02-22
+date: 2019-08-18 12:00
 ---
 Rogers Park FNB is a DIY solidarity organization, one autonomous branch of an international organization with chapters all over the world. FNB saves food from the waste stream while highlighting the inequities of our society.
