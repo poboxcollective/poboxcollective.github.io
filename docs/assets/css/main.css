@@ -112,6 +112,11 @@ h1 {
   font-size: 4.4rem;
   text-shadow: 4px 4px 0px rgba(38, 44, 92, 0.15);
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3.3rem;
+  }
+}
 
 @supports (-webkit-text-stroke: 1px black) {
   h1 {
@@ -162,7 +167,7 @@ blockquote {
 
 @media (width >= 600px) {
   .card-cal-upcoming {
-    width: 350px;
+    width: 300px;
   }
 }
 
@@ -173,8 +178,6 @@ blockquote {
 }
 
 .card-cal-upcoming img {
-  min-width: 350px;
-  min-height: 350px;
   aspect-ratio: 1/1;
 }
 

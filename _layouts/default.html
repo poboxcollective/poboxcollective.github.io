@@ -37,8 +37,8 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-12 pe-5 animate__animated animate__fadeIn">
-            <h1 class="text-uppercase accent-2-dark fw-bold px-5">Welcome to<br><span class="accent-2">PO BOX</span></h1>
-            <div class="px-5">
+            <h1 class="text-uppercase accent-2-dark fw-bold px-5 text-center text-sm-start">Welcome to<br><span class="accent-2">PO BOX</span></h1>
+            <div class="px-2 px-sm-5 text-center text-sm-start">
               <p class="mt-5">A creative collective & intergenerational social practice center dedicated to <span class="fw-bold">building Rogers Park community through radical art making, mutual aid & programming</span>.</p>
               <p>We host skill and resource sharing workshops.</p>
               <p class="mt-5 text-center"><a href="/contact/" alt="Contact Us" class="btn btn-outline-primary rounded rounded-pill px-4 py-2"><span class="accent-2-dark">If you'd like to participate <i class="bi bi-envelope-heart px-1 accent-3"></i> contact us</span></a></p>
@@ -66,15 +66,7 @@
         </div>
       </div>
       <!-- top content block -->
-      <div class="container-fluid card-event pb-5 pt-5 mb-4">
-        <h1 class="text-uppercase text-center text-white">Upcoming Events</h1>
-      </div>
-      <div class="container-fluid px-5 mt-5">
-        <div class="d-flex flex-row g-4 flex-wrap justify-content-start gap-5 flex-fill align-items-stretch">
-          {% include events-next-3.html %}
-        </div>
-        <h4 class="py-5 text-end"><i class="bi bi-arrow-return-right accent-2-dark pe-2"></i>  <a href="/events/" alt="All Events" class="accent-3">View All Upcoming Events</a></h4>
-      </div>
+      {% include events-next-3.html %}
       {% include press.html %}
     </div>
     {% include values.html %}
