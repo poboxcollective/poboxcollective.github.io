@@ -9,17 +9,17 @@
         {% include programming-categories.html %}
       </div>
       <div class="container-fluid px-5 mb-4 hero-fluid mt-5">
-        <div class="d-flex align-items-stretch flex-wrap justify-content-center" data-aos="fade-up">
+        <div class="d-flex align-items-stretch flex-wrap justify-content-center">
               {% assign sorted = site.programming | where_exp: 'post', "post.category == 'workshop'" %}
               {% assign sortbydate = sorted | reverse %}
               {% for program in sortbydate %}
-              <div class="d-flex flex-column justify-content-around card-quarter flex-wrap px-0 px-md-3 mb-4">
+              <div class="d-flex flex-column justify-content-around card-quarter flex-wrap px-0 px-md-3 mb-4" data-aos="fade-up" data-aos-once="true">
                 <div class="hstack gap-0 justify-content-between">
-                  <h5 class="mb-3 fw-bold accent-3 text-uppercase"><i class="bi bi-easel-fill"></i> {{program.categories}}</h5>
+                  <h5 class="mb-3 fw-bold accent-2-dark text-uppercase"><i class="bi bi-easel-fill"></i> {{program.categories}}</h5>
                   <h5 class="accent-2 fw-normal accent-2-dark text-uppercase">{{program.date | date: "%B %d, %Y"}}</h5>
                 </div>
                 <a href="{{program.url}}" alt="{{program.title}}"><img src="{{ program.image[0] }}" alt="{{ program.title }}" class="img-fluid rounded rounded-4 mb-4"></a>
-                <h3 class="fw-bold text-start"><a href="{{program.url}}"" class="accent-2-dark text-decoration-none" alt="{{program.title}}">{{program.title}}</a></h3>
+                <h3 class="fw-bold text-start"><a href="{{program.url}}"" class="accent-3 text-decoration-none" alt="{{program.title}}">{{program.title}}</a></h3>
                 <p class="my-4 flex-grow-1">{{program.description}}</p>
                 <h4 class="mt-2 text-end"><i class="bi bi-arrow-return-right accent-2-dark pe-2 mb-5"></i>  <a href="{{program.url}}" alt="{{program.title}}" class="accent-3">More Info</a></h4>
                 <hr class="my-4 accent-3 border-2">
