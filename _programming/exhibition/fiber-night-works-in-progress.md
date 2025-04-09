@@ -13,8 +13,8 @@ image:
  - "/assets/img/programming/exhibitions/fiber-night-wip/fiber-night-wip-sweater.jpg"
  - "/assets/img/programming/exhibitions/fiber-night-wip/fiber-night-wip-flyer.jpg"
 description: |
- In the month of May, we annually honor the historic gains made by workers and laborers around the world.
+ “Works in Progress” Art Opening is a celebration of unfinished business.
 category: exhibition
 date: 2025-02-07
 ---
-“Works in Progress” Art Opening is a celebration of unfinished business. Featuring ongoing work from the Rogers Park community.
+Featuring ongoing work from the Rogers Park community.
