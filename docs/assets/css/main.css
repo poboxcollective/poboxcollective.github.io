@@ -110,18 +110,14 @@ h1 {
   font-family: "Oswald", serif;
   font-optical-sizing: auto;
   text-shadow: 4px 4px 0px rgba(38, 44, 92, 0.15);
-}
-@media screen and (max-device-width: 768px) {
-  h1 {
-    font-size: 3rem;
-  }
-}
-@media (min-width: 769px) {
-  h1 {
-    font-size: 4.4rem;
-  }
+  font-size: 4.2rem;
 }
 
+@media (max-width: 800px) {
+  h1 {
+    font-size: 3.2 rem;
+  }
+}
 @supports (-webkit-text-stroke: 1px black) {
   h1 {
     -webkit-text-stroke: 0.08rem white;
