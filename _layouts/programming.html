@@ -4,7 +4,7 @@
   <body>
     <div class="container-fluid g-0 overflow-hidden">
       {% include nav.html %}
-      <div class="container-fluid pb-5" data-aos="fade-in">
+      <div class="container-fluid pb-3 pb-sm-5" data-aos="fade-in">
         <a href="/programming/" alt="PO Box Programming" class="text-decoration-none"><h1 class="text-uppercase text-center accent-2-dark fw-bold" data-aos="fade-in">{{page.title}}</h1></a>
         {% include programming-categories.html %}
       </div>
@@ -13,8 +13,8 @@
               {% assign sorted = site.programming | reverse %}
               {% for program in sorted %}
               <div class="d-flex flex-column justify-content-around card-quarter flex-wrap px-0 px-md-3 mb-4" data-aos="fade-up" data-aos-once="true">
-                <div class="hstack gap-0 justify-content-between">
-                 <h5 class="mb-3 fw-bold accent-2-dark text-uppercase">
+                <div class="hstack gap-0 justify-content-between align-content-start">
+                 <h5 class="fw-bold accent-2-dark text-uppercase">
                   {% if program.category == "exhibition" %}<i class="bi bi-easel-fill"></i>{% endif %}
                   {% if program.category == "workshop" %}<i class="bi bi-gear-fill"></i>{% endif %}
                   {% if program.category == "mutual-aid" %}<i class="bi bi-life-preserver"></i>{% endif %}
