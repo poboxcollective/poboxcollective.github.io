@@ -4,9 +4,29 @@
   <body>
     <div class="container-fluid g-0 overflow-hidden">
       {% include nav.html %}
-      <div class="container-fluid" data-aos="fade-in">
-        <a href="/programming/" alt="PO Box Programming" class="text-decoration-none"><h1 class="text-uppercase text-center accent-2-dark fw-bold" data-aos="fade-in">{{page.title}}</h1></a>
+      <a href="/programming/" alt="PO Box Programming" class="text-decoration-none"><h1 class="text-uppercase text-center accent-2-dark fw-bold" data-aos="fade-in">{{page.title}}</h1></a>
+      <div class="container-fluid d-none d-lg-block" data-aos="fade-in">
         {% include programming-categories.html %}
+      </div>
+      <div class="container pt-3 text-center pb-3 pb-sm-5 d-block d-lg-none">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasFilter" aria-controls="offcanvasFilter" data-aos="flip-up">
+          <i class="bi bi-filter"></i> Filter
+        </button>
+        <div class="offcanvas offcanvas-top w-100 vh-100 bg-upwards" tabindex="-1" id="offcanvasFilter" aria-labelledby="offcanvasFilterLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close fill-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body mx-auto">
+            <div class="text-start vstack gap-4 pt-5">
+              <h3><a href="/programming/" class="text-white text-decoration-none" alt="All"><i class="bi bi-toggle2-off"></i> All</a></h3>
+              <h3><a href="/programming/exhibitions/" class="text-white text-decoration-none"><i class="bi bi-easel-fill"></i> Exhibitions & Performances</a></h3>
+              <h3><a href="/programming/workshops/" class="text-white text-decoration-none" ><i class="bi bi-gear-fill"></i> Workshops</a></h3>
+              <h3><a href="/programming/mutual-aid/" class="text-white text-decoration-none" ><i class="bi bi-life-preserver"></i> Mutual Aid</a></h3>
+              <h3><a href="/programming/general/" class="text-white text-decoration-none" ><i class="bi bi-asterisk"></i> General</a></h3>
+              <h3><a href="/programming/screenings" class="text-white text-decoration-none" ><i class="bi bi-film"></i> Screenings</a></h3>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="container-fluid px-5 mb-4 hero-fluid mt-5">
         <div class="d-flex align-items-stretch flex-wrap justify-content-center">
