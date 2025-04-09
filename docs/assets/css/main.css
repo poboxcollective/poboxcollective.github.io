@@ -113,9 +113,9 @@ h1 {
   font-size: 4.2rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   h1 {
-    font-size: 3.2 rem;
+    font-size: 3.2rem;
   }
 }
 @supports (-webkit-text-stroke: 1px black) {
