@@ -109,12 +109,16 @@ p:not(:last-child) {
 h1 {
   font-family: "Oswald", serif;
   font-optical-sizing: auto;
-  font-size: 4.4rem;
   text-shadow: 4px 4px 0px rgba(38, 44, 92, 0.15);
 }
 @media (max-width: 768px) {
   h1 {
     font-size: 3rem;
+  }
+}
+@media (min-width: 769px) {
+  h1 {
+    font-size: 4.4rem;
   }
 }
 
@@ -159,19 +163,19 @@ blockquote {
   height: 5px;
 }
 
-@media (width >= 600px) {
+@media (min-width: 600px) {
   .card-quarter {
     width: 500px;
   }
 }
 
-@media (width >= 600px) {
+@media (min-width: 600px) {
   .card-cal-upcoming {
     width: 350px;
   }
 }
 
-@media (width >= 600px) {
+@media (min-width: 600px) {
   .card-cal-all {
     width: 300px;
   }
