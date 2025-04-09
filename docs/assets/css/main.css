@@ -111,7 +111,7 @@ h1 {
   font-optical-sizing: auto;
   text-shadow: 4px 4px 0px rgba(38, 44, 92, 0.15);
 }
-@media (max-width: 768px) {
+@media screen and (max-device-width: 768px) {
   h1 {
     font-size: 3rem;
   }

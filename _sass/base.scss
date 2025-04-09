@@ -118,7 +118,7 @@ h1 {
   font-family: "Oswald", serif;
   font-optical-sizing: auto;
   text-shadow: 4px 4px 0px rgb(38, 44, 92, 0.15);
-  @media (max-width: 768px){
+  @media screen and (max-device-width: 768px){
     font-size: 3rem;
   }
   @media (min-width: 769px){
