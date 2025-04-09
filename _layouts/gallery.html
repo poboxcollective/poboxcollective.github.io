@@ -31,21 +31,21 @@
         <a href="{{page.image-hero[0]}}" class="glightbox" alt="{{page.title}}"><img src="{{page.image-hero[0]}}" class="img-fluid mx-auto" alt="{{page.title}} Image" data-aos="fade-up" data-aos-easing="ease-out"></a>
       </div>
       {% endif %}
-      <div class="container-fluid px-5 mb-4">
+      <div class="container-fluid px-4 mb-4">
         <div class="row align-items-top">
-          <div class="col-md-6 col-sm-12 mb-sm-4">
+          <div class="col-md-6 col-sm-12 mb-sm-4 order-2 order-sm-1">
             <div class="vstack gap-5">
               {% for img in page.image offset:1 %}
               <a href="{{img}}" class="glightbox" alt="{{page.title}}"><img src="{{img}}" alt="{{page.title}} Image" class="img-fluid" data-aos="fade-up"></a>
               {% endfor %}
           </div>
           </div>
-          <div class="col-md-6 col-sm-12 mb-sm-4">
+          <div class="col-md-6 col-sm-12 mb-sm-4 order-1 order-sm-2">
             <div class="px-0 px-sm-5 h-100 mt-5">
               <article data-aos="fade-up">
                 {{page.content}}
               </article>
-              <div class="sticky-top">
+              <div class="sticky-md-top">
                 <h4 class="py-5 text-end"><i class="bi bi-arrow-left accent-2-dark pe-2"></i>  <a href="/programming/" alt="Back to Programming" class="accent-3">Back to Programming</a></h4>
               </div>
             </div>

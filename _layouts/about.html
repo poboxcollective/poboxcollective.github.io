@@ -7,35 +7,29 @@
       <!-- top content block -->
       <div class="container-fluid hero-landing">
         <div class="row align-items-top justify-content-center">
-          <div class="col-lg-6 col-md-12 pt-3 ps-sm-0 ps-md-3 ps-lg-5">
-            <img src="/assets/img/storefront.jpg" alt="Storefront Image" class="img-fluid mb-5 rounded rounded-4  animate__animated animate__fadeIn">
-            <div class="container ratio ratio-16x9 mb-3">
+          <div class="col-lg-6 col-md-12 pt-3 ps-4 pe-4 ps-lg-5 order-2 order-sm-1">
+            <img src="/assets/img/storefront.jpg" alt="Storefront Image" class="img-fluid mb-5 rounded rounded-4" data-aos="fade-in">
+            <div class="container ratio ratio-16x9 mb-5" data-aos="fade-up">
               <iframe src="https://www.youtube.com/embed/HiYTpYSG_pE?rel=0"
                 allowfullscreen>
               </iframe>
             </div>
           </div>
-          <div class="col-lg-6 col-md-12 pe-5">
+          <div class="col-lg-6 col-md-12 pe-0 pe-md-5 order-1 order-sm-2">
             <h1 class="text-uppercase accent-2-dark fw-bold px-0 px-sm-5 text-center text-sm-start animate__animated animate__fadeIn">About<br><span class="accent-2">PO Box</span></h1>
-            <div class="px-3 px-sm-5 animate__animated animate__fadeIn">
+            <div class="px-3 px-sm-5 pb-5 animate__animated animate__fadeIn">
               <h5 class="text-uppercase accent-3 fw-bold text-center text-sm-start" data-aos="flip-up" data-aos-delay="500">a hub for radical hospitality</h5>
               <p class="mt-5">PO Box Collective endeavors to be of the community and for the community.</p>
               <p>Founded in 2019, PO Box is an all-volunteer, multiracial, multigenerational, antiracist organizing, mutual aid and art hub located in Rogers Park.</p>
               <p>PO Box brings together thousands of people every year who might otherwise never meet in our cultural programming and mutual aid projects. Through this work we redistribute wealth while learning, organizing, creating and celebrating together.</p>
             </div>
-            {% include buttons.html %}
-            <div class="ps-4 mb-5 text-center" data-aos="fade-up">
+            <div class="text-center ps-3 ps-md-5 pe-4 pe-md-5" data-aos="fade-up">
               <img src="/assets/img/collective-members.jpg" alt="Collective Members" class="img-fluid rounded rounded-4 mb-4">
               <p>Some current and former collective members.</p>
             </div>
-            <!--<div class="plyr__video-embed ratio ratio-16x9 mt-5 animate__animated animate__fadeInUp" id="player">
-              <iframe
-                  src="https://www.youtube.com/embed/HiYTpYSG_pE?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
-                  allowfullscreen
-                  allowtransparency
-                  allow="autoplay"
-              ></iframe>
-            </div>-->
+          </div>
+          <div class="order-3">
+          {% include buttons.html %}
           </div>
         </div>
       <!-- top content block -->

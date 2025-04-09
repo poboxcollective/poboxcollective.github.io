@@ -3,8 +3,9 @@ title: |
  The Battle of Algiers
 layout: gallery
 image:
+ - "/assets/img/programming/screenings/the-battle-of-algiers-discussion-1x1.jpg"
  - "/assets/img/programming/screenings/the-battle-of-algiers-1x1.jpg"
- - "/assets/img/programming/screenings/the-battle-of-algiers-1x1.jpg"
+ - "/assets/img/programming/screenings/the-battle-of-algiers-discussion-4x3.jpg"
 description: |
  The Battle of Algiers (1966), directed by Gillo Pontecorvo, is a gripping, documentary-style portrayal of Algeria's fight for independence from French colonial rule.
 category: screening

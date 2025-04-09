@@ -2,9 +2,15 @@
 title: |
  From Panther to Panther: Legacies of Resistance
 layout: gallery
+image-hero:
+ - "/assets/img/programming/exhibitions/panther-to-panther/panther-to-panther-hero.jpg"
 image:
+ - "/assets/img/programming/exhibitions/panther-to-panther/panther-to-panther-literature-1x1.jpg"
  - "/assets/img/programming/exhibitions/panther-to-panther/panther-to-panther-1x1.jpg"
- - "/assets/img/programming/exhibitions/panther-to-panther/panther-to-panther-1x1.jpg"
+ - "/assets/img/programming/exhibitions/panther-to-panther/panther-to-panther-group-4x3.jpg"
+ - "/assets/img/programming/exhibitions/panther-to-panther/panther-to-panther-poster-3x4.jpg"
+ - "/assets/img/programming/exhibitions/panther-to-panther/panther-to-panther-printing-3x4.jpg"
+ - "/assets/img/programming/exhibitions/panther-to-panther/panther-to-panther-performance-4x3.jpg"
 description: |
  Together, we will expand our understanding of how the Black Panther Party’s advocacy for Black empowerment, self-defense, and social justice resonated with the Dalit Panthers in their own struggle for equality and dignity.
 category: exhibition

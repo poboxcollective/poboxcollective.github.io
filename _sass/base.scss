@@ -143,8 +143,8 @@ h4 {
 
 blockquote {
   padding-left: 1rem;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   border-left: solid 4px $accent-2-med;
 }
 
@@ -171,7 +171,7 @@ blockquote {
 }
 .card-cal-upcoming {
   @media (width >=600px){
-    width: 300px;
+    width: 350px;
   }
 }
 
@@ -213,6 +213,9 @@ svg.logo-raygun {
   width: 150px;
   fill: white;
   margin: auto;
+  @media (max-width: 768px) {
+    width: 100px;
+  }
 }
 
 g#sparks, g.raygun-circle {
