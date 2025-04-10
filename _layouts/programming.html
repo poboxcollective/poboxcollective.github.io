@@ -41,7 +41,8 @@
                   {% if program.category == "general" %}<i class="bi bi-asterisk"></i>{% endif %}
                   {% if program.category == "screening" %}<i class="bi bi-film"></i>{% endif %}
                   {{program.categories}}</h5>
-                  <h5 class="accent-2 fw-normal accent-2-dark text-uppercase">{{program.date | date: "%B %d, %Y"}}</h5>
+                  <h5 class="accent-2 fw-normal accent-2-dark text-uppercase d-none d-lg-block">{{program.date | date: "%B %d, %Y"}}</h5>
+                  <h5 class="accent-2 fw-normal accent-2-dark text-uppercase d-block d-lg-none">{{program.date | date: "%b %d, '%y"}}</h5>
                 </div>
                 <a href="{{program.url}}" alt="{{program.title}}"><img src="{{ program.image[0] }}" alt="{{ program.title }}" class="img-fluid rounded rounded-4 mb-4"></a>
                 <h3 class="fw-bold text-start"><a href="{{program.url}}"" class="accent-3 text-decoration-none" alt="{{program.title}}">{{program.title}}</a></h3>

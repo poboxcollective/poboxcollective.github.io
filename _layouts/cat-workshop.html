@@ -34,9 +34,10 @@
               {% assign sortbydate = sorted | reverse %}
               {% for program in sortbydate %}
               <div class="d-flex flex-column justify-content-around card-quarter flex-wrap px-0 px-md-3 mb-4" data-aos="fade-up" data-aos-once="true">
-                <div class="hstack gap-0 justify-content-between">
+                <div class="hstack gap-0 justify-content-between align-content-start">
                   <h5 class="mb-3 fw-bold accent-2-dark text-uppercase"><i class="bi bi-gear-fill"></i> {{program.categories}}</h5>
-                  <h5 class="accent-2 fw-normal accent-2-dark text-uppercase">{{program.date | date: "%B %d, %Y"}}</h5>
+                  <h5 class="accent-2 fw-normal accent-2-dark text-uppercase d-none d-lg-block">{{program.date | date: "%B %d, %Y"}}</h5>
+                  <h5 class="accent-2 fw-normal accent-2-dark text-uppercase d-block d-lg-none">{{program.date | date: "%b %d, '%y"}}</h5>
                 </div>
                 <a href="{{program.url}}" alt="{{program.title}}"><img src="{{ program.image[0] }}" alt="{{ program.title }}" class="img-fluid rounded rounded-4 mb-4"></a>
                 <h3 class="fw-bold text-start"><a href="{{program.url}}"" class="accent-3 text-decoration-none" alt="{{program.title}}">{{program.title}}</a></h3>
