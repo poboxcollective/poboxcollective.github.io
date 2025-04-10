@@ -8,6 +8,8 @@ image:
  - "/assets/img/programming/general/poetry-night/poetry-night.jpg"
  - "/assets/img/programming/general/poetry-night/poetry-night-02.jpg"
  - "/assets/img/programming/general/poetry-night/poetry-night-03.jpg"
+ - "/assets/img/programming/general/poetry-night/poetry-night-04.jpg"
+ - "/assets/img/programming/general/poetry-night/poetry-night-05.jpg"
 description: |
  This workshop is led by guest writers— sometimes readers, sometimes other poets local to Chicago. 
 category: general

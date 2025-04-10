@@ -1,10 +1,13 @@
 ---
 title: |
- Who Needs Sleep? - Union Film Workers' Screening 
+ Israelism Screening 
 layout: gallery
 image:
  - "/assets/img/programming/screenings/israelism-screening-1x1.jpg"
  - "/assets/img/programming/screenings/israelism-screening-1x1.jpg"
+ - "/assets/img/programming/screenings/who-needs-sleep/who-needs-sleep-01.jpg"
+ - "/assets/img/programming/screenings/who-needs-sleep/who-needs-sleep-02.jpg"
+ - "/assets/img/programming/screenings/who-needs-sleep/who-needs-sleep-03.jpg"
 description: |
  Two young American Jews travel to Israel seeking a deeper understanding of the country they were raised to love. What they encounter profoundly impacts them, leading them to join a growing movement to redefine their community's relationship with Israel in this challenging and emotional journey.
 category: screening

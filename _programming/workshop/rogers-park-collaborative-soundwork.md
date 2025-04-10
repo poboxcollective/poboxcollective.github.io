@@ -4,7 +4,12 @@ title: |
 layout: gallery
 image:
  - "/assets/img/programming/workshops/collaborative-soundwork/collaborative-soundwork-1x1.jpg"
- - "/assets/img/programming/workshops/collaborative-soundwork/collaborative-soundwork-1x1.jpg"
+ - "/assets/img/programming/workshops/collaborative-soundwork/collaborative-soundwork-01.jpg"
+ - "/assets/img/programming/workshops/collaborative-soundwork/collaborative-soundwork-02.jpg"
+ - "/assets/img/programming/workshops/collaborative-soundwork/collaborative-soundwork-03.jpg"
+ - "/assets/img/programming/workshops/collaborative-soundwork/collaborative-soundwork-04.jpg"
+ - "/assets/img/programming/workshops/collaborative-soundwork/collaborative-soundwork-05.jpg"
+ - "/assets/img/programming/workshops/collaborative-soundwork/collaborative-soundwork-06.jpg"
 description: |
  What do we learn about a place by listening to the sounds that comprise its sonic dimensions?
 category: workshop

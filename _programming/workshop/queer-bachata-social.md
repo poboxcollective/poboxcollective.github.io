@@ -5,6 +5,10 @@ layout: gallery
 image:
  - "/assets/img/programming/workshops/queer-bachata-social/queer-bachata-social-1x1.jpg"
  - "/assets/img/programming/workshops/queer-bachata-social/queer-bachata-social-1x1.jpg"
+ - "/assets/img/programming/workshops/queer-bachata-social/queer-bachata-social-01.jpg"
+ - "/assets/img/programming/workshops/queer-bachata-social/queer-bachata-social-02.jpg"
+ - "/assets/img/programming/workshops/queer-bachata-social/queer-bachata-social-03.jpg"
+ - "/assets/img/programming/workshops/queer-bachata-social/queer-bachata-social-04.jpg"
  - "/assets/img/programming/workshops/queer-bachata-social/queer-bachata-social-1x1-2.jpg"
 description: |
  The Queer Bachata Social at PO Box collective starts with a warmup and intro to the fundamentals of Dominican Bachata, including partner dancing without the gendered assumptions about leading and following.

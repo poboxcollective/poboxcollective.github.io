@@ -16,6 +16,11 @@ image:
  - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-08.jpg"
  - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-07.jpg"
  - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-09.jpg"
+ - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-10.jpg"
+ - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-11.jpg"
+ - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-12.jpg"
+ - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-13.jpg"
+ - "/assets/img/programming/exhibitions/tending-responsibility/tending-responsibility-14.jpg"
 description: |
  A community art exhibit by Palestinian & MENA artists.<br>
  Featuring art by: Rama, Ahmad Almahdi, Fade Kareem & Yasmeen Khayr.
