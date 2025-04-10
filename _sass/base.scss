@@ -358,6 +358,11 @@ nav #logo, .offcanvas-nav #logo {
   transform: rotate(-10deg);
   padding-left: 2rem;
 }
+@media (max-width: 768px) {
+  div#logo img {
+    max-width: 200px;
+  }
+}
 
 .blink {
   animation: blinker 2.5s linear infinite;
