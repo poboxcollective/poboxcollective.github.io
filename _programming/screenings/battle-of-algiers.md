@@ -11,11 +11,6 @@ description: |
 category: screening
 date: 2025-02-08
 ---
-<div class="container ratio ratio-16x9 mb-5" data-aos="fade-up">
-    <iframe src="https://www.youtube-nocookie.com/embed/Wd5Pz8KJeU4"
-    allowfullscreen>
-    </iframe>
-</div>
 Focusing on the 1950s urban guerrilla warfare in Algiers, it captures the brutal tactics and human cost on both sides, offering a stark, realistic depiction of colonial resistance.
 
 Featuring live, virtual commentary from Algerian cultural activist Mohammed Benloulou, streaming directly from Algeria, along with additional guests TBA!! This event is presented by SpaceShift Collective.

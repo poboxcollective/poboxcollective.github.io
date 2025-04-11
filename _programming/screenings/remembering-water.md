@@ -10,9 +10,4 @@ description: |
 category: screening
 date: 2024-07-07
 ---
-<div class="container ratio ratio-16x9 mb-5" data-aos="fade-up">
-    <iframe src="https://www.youtube.com/embed/KpdzL8NcaHE"
-    allowfullscreen>
-    </iframe>
-</div>
 Discussion to follow the screening with filmmaker, Tom Callahan.

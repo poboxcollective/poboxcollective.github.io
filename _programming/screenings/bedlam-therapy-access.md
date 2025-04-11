@@ -10,9 +10,4 @@ description: |
 category: screening
 date: 2024-10-19
 ---
-<div class="container ratio ratio-16x9 mb-5" data-aos="fade-up">
-    <iframe src="https://www.youtube-nocookie.com/embed/3bkOnZLrt38"
-    allowfullscreen>
-    </iframe>
-</div>
 The documentary Bedlam contains sensitive and potentially distressing material related to mental illness, psychiatric hospitalization, institutionalization, homelessness, and systemic abuses within the mental health care system. For a full content warning click the link in our bio.

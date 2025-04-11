@@ -14,11 +14,6 @@ description: |
 category: screening
 date: 2024-06-05
 ---
-<div class="container ratio ratio-16x9 mb-5" data-aos="fade-up">
-    <iframe src="https://www.youtube-nocookie.com/embed/85mY_kc9rTc?si=2bipcRQEMPyoqb7L"
-    allowfullscreen>
-    </iframe>
-</div>
 The film remixes long-form interviews with movement workers across the world who have created community-based safety projects, expanding our ideas about what keeps us safe. We don’t need one answer to how we get free–we need one million experiments.
 
 <h4>BACKGROUND</h4>

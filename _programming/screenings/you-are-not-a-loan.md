@@ -10,11 +10,6 @@ description: |
 category: screening
 date: 2024-04-19
 ---
-<div class="container ratio ratio-16x9 mb-5" data-aos="fade-up">
-    <iframe src="https://www.youtube-nocookie.com/embed/AWSkDCx8gH4"
-    allowfullscreen>
-    </iframe>
-</div>
 <h4>ABOUT THE FILM</h4>
 Activists and academics discuss the crisis of higher education and the growing movement to cancel student debt and make college free for all | A short film by Astra Taylor, a founder of the Debt Collective.
 
