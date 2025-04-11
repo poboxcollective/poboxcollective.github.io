@@ -21,9 +21,9 @@
               <h3><a href="/programming/" class="text-white text-decoration-none" alt="All"><i class="bi bi-toggle2-off pe-2"></i> All</a></h3>
               <h3><a href="/programming/exhibitions/" class="text-white text-decoration-none"><i class="bi bi-easel-fill pe-2"></i> Exhibitions & Performances</a></h3>
               <h3><a href="/programming/workshops/" class="text-white text-decoration-none" ><i class="bi bi-gear-fill pe-2"></i> Workshops</a></h3>
+              <h3><a href="/programming/screenings" class="text-white text-decoration-none" ><i class="bi bi-film pe-2"></i> Screenings</a></h3>
               <h3><a href="/programming/mutual-aid/" class="text-white text-decoration-none" ><i class="bi bi-life-preserver pe-2"></i> Mutual Aid</a></h3>
               <h3><a href="/programming/general/" class="text-white text-decoration-none" ><i class="bi bi-asterisk pe-2"></i> General</a></h3>
-              <h3><a href="/programming/screenings" class="text-white text-decoration-none" ><i class="bi bi-film pe-2"></i> Screenings</a></h3>
             </div>
           </div>
         </div>
@@ -37,9 +37,9 @@
                  <h5 class="fw-bold accent-2-dark text-uppercase">
                   {% if program.category == "exhibition" %}<i class="bi bi-easel-fill"></i>{% endif %}
                   {% if program.category == "workshop" %}<i class="bi bi-gear-fill"></i>{% endif %}
+                  {% if program.category == "screening" %}<i class="bi bi-film"></i>{% endif %}
                   {% if program.category == "mutual-aid" %}<i class="bi bi-life-preserver"></i>{% endif %}
                   {% if program.category == "general" %}<i class="bi bi-asterisk"></i>{% endif %}
-                  {% if program.category == "screening" %}<i class="bi bi-film"></i>{% endif %}
                   {{program.categories}}</h5>
                   <h5 class="accent-2 fw-normal accent-2-dark text-uppercase d-none d-lg-block">{{program.date | date: "%B %d, %Y"}}</h5>
                   <h5 class="accent-2 fw-normal accent-2-dark text-uppercase d-block d-lg-none">{{program.date | date: "%b %d, '%y"}}</h5>
