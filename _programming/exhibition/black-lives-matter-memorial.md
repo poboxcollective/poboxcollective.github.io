@@ -8,6 +8,8 @@ image:
  - "/assets/img/programming/exhibitions/BLM/black-lives-matter-memorial-02.jpg"
  - "/assets/img/programming/exhibitions/BLM/black-lives-matter-memorial-03.jpg"
  - "/assets/img/programming/exhibitions/BLM/black-lives-matter-memorial-04.jpg"
+ - "/assets/img/programming/exhibitions/BLM/black-lives-matter-memorial-05.jpg"
+ - "/assets/img/programming/exhibitions/BLM/black-lives-matter-memorial-06.jpg"
 description: |
  A PO Box collaboration with Cheap Art for Freedom and Matthias Regan, launched on July 4th, 2020 under the el at W. Farwell and N. Glenwood.
 category: exhibition
