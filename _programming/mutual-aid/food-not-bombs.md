@@ -12,6 +12,7 @@ image:
  - "/assets/img/programming/mutual-aid/food-not-bombs/food-not-bombs-03.jpg"
  - "/assets/img/programming/mutual-aid/food-not-bombs/food-not-bombs-04.jpg"
  - "/assets/img/programming/mutual-aid/food-not-bombs/food-not-bombs-05.jpg"
+ - "/assets/img/programming/mutual-aid/food-not-bombs/warm-up-with-us-flyer.jpg"
 description: |
  Rogers Park FNB rescues unsold groceries from Whole Foods and local restaurant supply sources.
 category: mutual-aid
