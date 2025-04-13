@@ -82,6 +82,14 @@ body {
   transform: rotate(2deg);
   margin-top: -5rem;
 }
+.stamp-mobile {
+  max-width: 150px;
+  transform: rotate(2deg);
+}
+
+.logo-mobile {
+  max-width: 150px;
+}
 
 .font-headline {
   font-family: $fontHeadline;
