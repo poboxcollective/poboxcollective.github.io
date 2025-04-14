@@ -11,7 +11,7 @@ address: |
 map: https://maps.app.goo.gl/kiraTHJz2yN8FXSr6
 image: nonfiction-march-2025.jpg
 year: 2025
-type: recurring
+type: series
 tags: [ event ]
 date: 2025-05-05 20:30:00 America/Chicago
 ---
