@@ -18,3 +18,19 @@ category: exhibition
 date: 2025-02-07
 ---
 Featuring ongoing work from the Rogers Park community.
+
+Marianna Buchwald<br>
+Molly Kraus-Steinmetz<br>
+Nico Cavalucci<br>
+Hugh Graham<br>
+Matthias Regan<br>
+Sophie Canadé<br>
+Jessica Renner<br>
+Hayley Hinsberger<br>
+Mary Miller<br>
+Max Gingold<br>
+Tracie<br>
+Ella<br>
+Sage<br>
+CJ<br>
+CC 
